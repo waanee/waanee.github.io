@@ -151,7 +151,7 @@ img {
 //
 
 .wrapper-masthead {
-  margin-bottom: 50px;
+  margin-bottom: 0px;
 }
 
 .masthead {
@@ -165,8 +165,8 @@ img {
 
 .site-avatar {
   float: left;
-  width: 70px;
-  height: 70px;
+  width: auto;
+  height: 60px;
   margin-right: 15px;
 
   @include mobile {
@@ -176,7 +176,8 @@ img {
   }
 
   img {
-    border-radius: 5px;
+    margin-top:15px;
+    height: 40px;
   }
 }
 
